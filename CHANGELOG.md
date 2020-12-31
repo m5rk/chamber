@@ -1,3 +1,23 @@
+Version v3.0.0 - December 30, 2020
+================================================================================
+
+Remove
+--------------------------------------------------------------------------------
+  * Ability To Access Non-Existent Settings Keys
+  * Inadvertent Reliance On ActiveSupport For JSON Parsing
+  * Hashie As A Dependency
+  * Ability To Use Object Notation
+  * Ability To Call Arbitrary Settings On Instance
+  * Ability To Call Settings Directly On Chamber
+
+Add
+--------------------------------------------------------------------------------
+  * Ability To Force Hash Keys To Be Strings
+
+Change
+--------------------------------------------------------------------------------
+  * Replace Monkeypatch With Refinement
+
 Version v2.14.2 - December 30, 2020
 ================================================================================
 
